@@ -4,16 +4,19 @@
       "string": {}
     },
     "userId": {
-      "int": {
-        "min": 1,
-        "max": 100
-      }
-    },
+      "belongsTo": "User"
+    }
     "completed": {
       "boolean": {}
     }
   },
   "User": {
+    "userId": {
+      "int": {
+        "min": 1,
+        "max": 100
+      }
+    },
     "name": {
       "string": {}
     },
