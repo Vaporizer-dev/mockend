@@ -5,7 +5,7 @@
     },
     "userId": {
       "belongsTo": "User"
-    }
+    },
     "completed": {
       "boolean": {}
     }
