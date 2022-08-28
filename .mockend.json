@@ -1,13 +1,15 @@
 {
-  "Todos": {
-    "userId": {
+  "User": {
+    "name": {
+      "string": {}
+    },
+    "age": {
       "int": {
         "min": 0,
         "max": 100
       }
     },
-    "title": { "string": {} },
-    "completed": {
+    "isPublic": {
       "boolean": {}
     }
   }
