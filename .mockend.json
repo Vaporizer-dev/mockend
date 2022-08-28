@@ -1,5 +1,5 @@
 {
-  "Todo": {
+  "Todos": {
     "title": {
       "string": {}
     },
@@ -14,7 +14,7 @@
     "userId": {
       "int": {
         "min": 1,
-        "max": 100
+        "max": 20
       }
     },
     "name": {
@@ -26,7 +26,7 @@
     "age": {
       "int": {
         "min": 21,
-        "max": 100
+        "max": 60
       }
     }
   }
