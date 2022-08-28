@@ -1,18 +1,12 @@
 {
   "Todos": {
     "userId": {
-        "int": {
-          "min": 0,
-          "max": 100
-        }
+      "int": {
+        "min": 0,
+        "max": 100
+      }
     },
     "title": { "string": {} },
-    "id": {
-          "int": {
-            "min": 0,
-            "max": 100
-          }
-    },
     "completed": {
       "boolean": {}
     }
